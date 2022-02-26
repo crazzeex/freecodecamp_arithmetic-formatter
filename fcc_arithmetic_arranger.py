@@ -80,7 +80,7 @@ def arithmetic_arranger(problems, state = False):
     
     return (arranged_problems)
 
-
+#test cases
 print (arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49", "9999 + 9999", "523 - 49" ]))
 print (arithmetic_arranger(["32 + 8", "1 - 3801", "9999 + 9999", "523 - 49"], True))
 print (arithmetic_arranger(['98 + 3g5', '3801 - 2', '45 + 43', '123 + 49']))
