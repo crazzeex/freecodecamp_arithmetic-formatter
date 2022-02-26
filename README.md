@@ -1,5 +1,5 @@
 # freecodecamp_arithmetic-formatter
-This is the code written for PROJECT1 for https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/time-calculator
+This is the code written for PROJECT1 for https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/arithmetic-formatter
 
 
 ### Assignment
