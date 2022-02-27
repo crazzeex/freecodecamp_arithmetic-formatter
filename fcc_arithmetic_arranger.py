@@ -44,9 +44,9 @@ def arithmetic_arranger(problems, state = False):
 
             #if top number is longer than bottom number, spaces needed will depend on top number
             if int(len(top_num)) > int(len(bot_num)) or int(len(top_num)) == int(len(bot_num)):
-                max_len = int(len(top_num)) + 2
-                ln1 += " "*2 + top_num + spaces
-                ln2 += math_sign + " "*(max_len - len(bot_num) - 1) + bot_num  + spaces
+                max_len = int(len(top_num)) + 2                                             # using .format for neater formatting of strings. Can also be used for ln4, as well as for the other parts of this code
+                ln1 += " "*2 + top_num + spaces                                             # ln1 += "{0:>{1}}{2}".format(top_num, max_len, spaces)
+                ln2 += math_sign + " "*(max_len - len(bot_num) - 1) + bot_num  + spaces     # ln2 += "{2:<}{0:>{1}}{3}".format(bot_num, max_len-1, math_sign, spaces)
                 ln3 += "-"*max_len + spaces
                 if state == True:
                     if math_sign == '+':
